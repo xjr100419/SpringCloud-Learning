@@ -1,9 +1,9 @@
 
 spring:
   datasource:
-      url: 'jdbc:mysql://localhost:3306/springcloud?useUnicode=true&characterEncoding=utf-8'
+      url: 'jdbc:mysql://192.168.10.93:3306/springcloud?useUnicode=true&characterEncoding=utf-8'
       username: root
-      password: 123456
+      password: '{cipher}1a8db426693755beb3b3c99fe3cc681ab9d0c5539779b35f50ccada1ba61b878'
       driver-class-name: com.mysql.jdbc.Driver
       type: com.alibaba.druid.pool.DruidDataSource
       max-active: 20
