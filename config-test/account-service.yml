@@ -21,7 +21,7 @@ test:
   accounts:
     - id: 1
       number: '0654321789'
-      balance: 2550
+      balance: 2550xian
       customerId: 1
     - id: 2
       number: '0654321780'
